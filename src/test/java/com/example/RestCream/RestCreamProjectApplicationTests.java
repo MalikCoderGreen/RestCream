@@ -1,0 +1,13 @@
+package com.example.RestCream;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class RestCreamProjectApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
