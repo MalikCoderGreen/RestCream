@@ -1,4 +1,4 @@
-package com.example.RestCream;
+package restCream;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
