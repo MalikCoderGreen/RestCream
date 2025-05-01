@@ -1,4 +1,4 @@
-package com.example.RestCream;
+package restCream;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 

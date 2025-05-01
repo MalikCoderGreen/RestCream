@@ -1,4 +1,4 @@
-package com.example.RestCream;
+package restCream;
 import org.springframework.stereotype.Service;
 import java.util.List;
 
