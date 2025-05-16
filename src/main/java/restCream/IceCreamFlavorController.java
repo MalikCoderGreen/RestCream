@@ -1,9 +1,12 @@
 package restCream;
+import jakarta.validation.Valid;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("api/v1/icecream-flavor")
+@RequestMapping("api")
 public class IceCreamFlavorController {
     private final IceCreamFlavorService iceCreamFlavorService;
 
@@ -28,5 +31,15 @@ public class IceCreamFlavorController {
         // Use Data Transfer Object (DTO)
         iceCreamFlavorService.insertIceCreamFlavor(iceCreamFlavor);
 
+    }
+
+    @PutMapping("{id}")
+    public ResponseEntity<IceCreamFlavor> updateIceCreamFlavor(@PathVariable("id") Integer id, @Valid @RequestBody IceCreamFlavor updatedIceCreamEntry) {
+        return iceCreamFlavorService.updateIceCreamFlavor(id, updatedIceCreamEntry);
+    }
+
+    @DeleteMapping("delete/flavor/{id}")
+    public ResponseEntity<HttpStatus> deleteIceCreamFlavorById(@PathVariable("id") Integer id) {
+        return iceCreamFlavorService.deleteIceCreamFlavorById(id);
     }
 }
