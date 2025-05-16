@@ -1,0 +1,26 @@
+2025-05-15T21:27:03.000-04:00  INFO 1155480 --- [RestCream Project] [main] r.RestCreamProjectApplicationTests       : Starting RestCreamProjectApplicationTests using Java 17.0.11 with PID 1155480 (started by leek in /mnt/c/Users/LeeK/Desktop/Spring_Stuff/RestCream)
+2025-05-15T21:27:03.005-04:00  INFO 1155480 --- [RestCream Project] [main] r.RestCreamProjectApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2025-05-15T21:27:05.228-04:00  INFO 1155480 --- [RestCream Project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-15T21:27:05.450-04:00  INFO 1155480 --- [RestCream Project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 178 ms. Found 1 JPA repository interface.
+2025-05-15T21:27:06.666-04:00  INFO 1155480 --- [RestCream Project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-15T21:27:07.573-04:00  INFO 1155480 --- [RestCream Project] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@733e6df7
+2025-05-15T21:27:07.581-04:00  INFO 1155480 --- [RestCream Project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-15T21:27:07.719-04:00  INFO 1155480 --- [RestCream Project] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-15T21:27:08.112-04:00  INFO 1155480 --- [RestCream Project] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-15T21:27:08.353-04:00  INFO 1155480 --- [RestCream Project] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-15T21:27:09.930-04:00  INFO 1155480 --- [RestCream Project] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-15T21:27:10.399-04:00  INFO 1155480 --- [RestCream Project] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.8
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-15T21:27:14.070-04:00  INFO 1155480 --- [RestCream Project] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-15T21:27:14.084-04:00  INFO 1155480 --- [RestCream Project] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-15T21:27:15.260-04:00  WARN 1155480 --- [RestCream Project] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-15T21:27:16.479-04:00  INFO 1155480 --- [RestCream Project] [main] r.RestCreamProjectApplicationTests       : Started RestCreamProjectApplicationTests in 14.561 seconds (process running for 17.466)
+2025-05-15T21:27:17.676-04:00  INFO 1155480 --- [RestCream Project] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-15T21:27:17.682-04:00  INFO 1155480 --- [RestCream Project] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-15T21:27:17.861-04:00  INFO 1155480 --- [RestCream Project] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
